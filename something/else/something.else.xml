@@ -1,1 +1,10 @@
-x + y + z
+<execute>
+                <![CDATA[
+                      
+                      var myvalue = \'hello\' + \'bobsadass\';
+                    
+                      response.object = <hi>{myvalue}</hi>;
+              
+              
+                ]]>
+            </execute>

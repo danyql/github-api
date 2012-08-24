@@ -1,7 +1,7 @@
 <execute>
                 <![CDATA[
                       
-                      var myvalue = \'hello \' + bob;
+                      var myvalue = 'hello ' + bob;
                     
                       response.object = <hi>{myvalue}</hi>;
               

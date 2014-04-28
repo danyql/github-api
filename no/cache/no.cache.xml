@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<i:table xmlns="http://query.yahooapis.com/v1/schema/table.xsd" xmlns:i="http://query.yahooapis.com/v1/schema/internalTable.xsd">
+    <meta>
+        <author><!-- your name or company name --></author>
+        <description><!-- description of thasdsde table --></description>
+        <documentationURL><!-- url for API documentation --></documentationURL>
+        <apiKeyURL><!-- url for getting an API key if needed --></apiKeyURL>
+        <sampleQuery>select * from {table}</sampleQuery>
+    </meta>
+    <i:bindings>
+        <i:select itemPath="json.feed" produces="JSON">
+            <urls>
+                <url>https://spreadsheets.google.com/feeds/list/{key}/od6/public/values</url>
+            </urls>
+            <inputs>
+                <key id="alt" type="xs:string" paramType="query" default="json" />
+                <key id="key" type="xs:string" paramType="path" default="0Asp5x6yM0pSXdFM3UTEta1lHelJsZGRXMW1uVzNDSVE" />
+            </inputs>
+            <execute>
+                <![CDATA[
+
+                ]]>
+            </execute>
+        </i:select>
+     </i:bindings>
+</i:table>
